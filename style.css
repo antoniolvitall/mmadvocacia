@@ -1,0 +1,54 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #dfcbc0;
+    --fonte-principal: 'Open Sans';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.mmlogo{
+    background-color: var(--cor-de-fundo);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mmlogofoto{
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.containter__secundario{
+    display: inline-block;
+    width: 940px;
+}
+
+.header__lista{
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.lista__link{
+    text-decoration: none;
+    margin-left: 1em;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.container__titulo{
+    margin-block-end: auto;
+}
